@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+Thank you for shopping with us! <br>
+Your confirmation number is: AAOO12F67
 </body>
 </html>

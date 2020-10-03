@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class ShippingInfo implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	private String number;
+	private String name;
 	private String addressLine1;
 	private String addressLine2;
 	private String city;
@@ -13,7 +13,7 @@ public class ShippingInfo implements Serializable {
 	private String zip;
 	
 	public ShippingInfo() {
-		setNumber("");
+		setName("");
 		setAddressLine1("");
 		setAddressLine2("");
 		setCity("");
@@ -21,12 +21,12 @@ public class ShippingInfo implements Serializable {
 		setZip("");
 	}
 
-	public String getNumber() {
-		return number;
+	public String getName() {
+		return name;
 	}
 
-	public void setNumber(String number) {
-		this.number = number;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public String getAddressLine1() {

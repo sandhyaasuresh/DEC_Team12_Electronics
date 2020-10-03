@@ -18,8 +18,8 @@
 			<tr>
 			<c:forEach items="${order.getItems()}"  var="item" varStatus="loop">
 				<tr>
-					<td><c:out value="${item.name}"></c:out></td>
-					<td><c:out value="${item.price}"></c:out></td>
+					<td><form:input path="items[${loop.index}].name" readonly="true" /></td>
+					<td><form:input path="items[${loop.index}].price" readonly="true" /></td>
 					<td><form:input path="items[${loop.index}].quantity" /></td>
 				<tr>
 			</c:forEach>
