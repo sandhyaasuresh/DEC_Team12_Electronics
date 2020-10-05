@@ -11,17 +11,34 @@
 <body>
 <form:form modelAttribute="shipping" method="post" action="submitShipping">
 
-    <table>
-	<tr>
-		<td>Name: <form:input path="name" /></td>
-		<td>Address Line 1: <form:input path="addressLine1" /></td>
-		<td>Address Line 2: <form:input path="addressLine2" /></td>
-		<td>City: <form:input path="city" /></td>
-		<td>State: <form:input path="state" /></td>
-		<td>Zip Code: <form:input path="zip" /></td>
-	 <tr>
-	 <td colspan="2"><input type="submit" value="Submit Shipping Details"></td>
-	 </tr>
+    <table style="width:40%;border:1px solid black">
+		<tr>
+			<td>Name:</td>
+			<td><form:input path="name" /></td>
+		</tr>
+		<tr>
+			<td>Address Line 1:</td>
+			<td><form:input path="addressLine1" /></td>
+		</tr>
+		<tr>
+			<td>Address Line 2:</td>
+			<td><form:input path="addressLine2" /></td>
+		</tr>
+		<tr>
+			<td>City:</td>
+			<td><form:input path="city" /></td>
+		</tr>
+		<tr>
+			<td>State:</td>
+			<td><form:input path="state" /></td>
+		</tr>
+		<tr>
+			<td>Zip Code:</td>
+			<td><form:input path="zip" /></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="submit" value="Submit Shipping Details"></td>
+		</tr>
     </table>
 </form:form>
 </body>

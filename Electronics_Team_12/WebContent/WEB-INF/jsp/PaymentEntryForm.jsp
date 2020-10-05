@@ -11,15 +11,26 @@
 <body>
 <form:form modelAttribute="payment" method="post" action="submitPayment">
 
-    <table>
-	<tr>
-		<td>Credit Card Number: <form:input path="creditCardNumber" /></td>
-		<td>Expiration Date: <form:input path= "exprDate" /></td>
-		<td>CVV Code: <form:input path="cvvCode" /></td>
-		<td>Card Holder Name: <form:input path="cardholderName" /></td>
-	 <tr>
-	 <td colspan="2"><input type="submit" value="Pay"></td>
-	 </tr>
+    <table style="width:40%;border:1px solid black">
+		<tr>
+			<td>Credit Card Number:</td>
+			<td><form:input path="creditCardNumber" /></td>
+		<tr />
+		<tr>
+			<td>Expiration Date:</td>
+			<td><form:input path= "exprDate" /></td>
+		<tr />
+		<tr>
+			<td>CVV Code:</td>
+			<td><form:input path="cvvCode" /></td>
+		<tr />
+		<tr>
+			<td>Card Holder Name:</td>
+			<td><form:input path="cardholderName" /></td>
+		<tr />
+		<tr>
+			<td colspan="2"><input type="submit" value="Pay"></td>
+		</tr>
     </table>
 </form:form>
 </body>
