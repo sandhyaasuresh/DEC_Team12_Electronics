@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ include file = "HeaderJSP.jsp" %>
 <html>
 <head>
 <meta charset="ISO-8859-1">
@@ -73,4 +74,5 @@
    </table>
  </form:form>
 </body>
+<%@ include file = "FooterJSP.jsp" %>
 </html>
