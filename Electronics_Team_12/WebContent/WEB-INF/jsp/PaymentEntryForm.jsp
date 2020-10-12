@@ -48,30 +48,8 @@ function validate() {
 </script>
 </head>
 <body>
+<div style="height:70vh;">
 <form:form id="myForm" modelAttribute="payment" method="post" action="submitPayment" onsubmit="return validate()">
-
-    <!--  <table style="width:40%;border:1px solid black">
-		<tr>
-			<td>Credit Card Number:</td>
-			<td><form:input path="creditCardNumber" /></td>
-		<tr />
-		<tr>
-			<td>Expiration Date:</td>
-			<td><form:input path= "exprDate" /></td>
-		<tr />
-		<tr>
-			<td>CVV Code:</td>
-			<td><form:input path="cvvCode" /></td>
-		<tr />
-		<tr>
-			<td>Card Holder Name:</td>
-			<td><form:input path="cardholderName" /></td>
-		<tr />
-		<tr>
-			<td colspan="2"><input type="submit" value="Pay"></td>
-		</tr>
-    </table> -->
-    
     <table class="table">
 		<tr>
 			<td>Credit Card Number:</td>
@@ -94,6 +72,7 @@ function validate() {
 		</tr>
     </table>
 </form:form>
+</div>
 </body>
 <%@ include file = "FooterJSP.jsp" %>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

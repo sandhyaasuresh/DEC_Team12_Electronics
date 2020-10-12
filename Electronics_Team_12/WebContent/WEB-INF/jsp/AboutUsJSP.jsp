@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
+<div style="height:70vh;">
 <div class="container mt-3">
 <center><h2> Get to know us! </h2></center>
 </div>
@@ -39,6 +40,7 @@
 		</div>
 	</div>
 	</div>
+</div>
 </div>
 </body>
 <%@ include file = "FooterJSP.jsp" %>

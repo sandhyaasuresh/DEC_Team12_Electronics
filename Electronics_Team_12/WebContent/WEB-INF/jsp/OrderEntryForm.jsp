@@ -11,26 +11,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-	<!-- <form:form modelAttribute="order" method="post" action="purchase/submitItems">
-		<table style="width:60%;border:1px solid black">
-			<tr>
-				<td>Name</td>
-				<td>Price</td>
-				<td>Quantity</td>
-			<tr>
-			<c:forEach items="${order.getItems()}"  var="item" varStatus="loop">
-				<tr>
-					<td><form:input path="items[${loop.index}].name" readonly="true" /></td>
-					<td><form:input path="items[${loop.index}].price" readonly="true" /></td>
-					<td><form:input path="items[${loop.index}].quantity" /></td>
-				<tr>
-			</c:forEach>
-			<tr>
-				<td colspan="2"><input type="submit" value="Purchase" />
-			</tr>
-		</table>
-	</form:form> -->
-	
+	<div style="height:70vh;">
 	<form:form modelAttribute="order" method="post" action="purchase/submitItems">
 		<table class="table">
 			<thead>
@@ -54,6 +35,7 @@
 			</tbody>
 		</table>
 	</form:form>
+	</div>
 </body>
 <%@ include file = "FooterJSP.jsp" %>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class= "footer footer-dark">
-<div class="fixed-bottom">
+<div>
   <div class="container-fluid text-center">
     <div class="row">
     <div class="col-md-2">
